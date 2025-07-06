@@ -16,6 +16,10 @@ A browser extension that helps you quickly access Amazon order archives. Amazon 
 # Install dependencies
 pnpm install
 
+# Generate icons from logo (requires ImageMagick)
+# Place your logo at public/logo.png first
+pnpm run generate-icons
+
 # Build for Chrome
 pnpm run build:chrome
 
