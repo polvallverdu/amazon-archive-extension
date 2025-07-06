@@ -1,17 +1,15 @@
-<table>
-<tr>
-<td width="70%">
-
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  <div style="flex: 1;">
+    
 # Amazon Archive Extension
 
 A browser extension that helps you quickly access Amazon order archives. Amazon removed on May 2025 the ability to archive orders, but not completely. You can still access the archive page by clicking on the order ID in the order page. This extension makes it easier to access the archive page by adding a button to the toolbar.
 
-</td>
-<td width="30%" align="center">
-<img src="public/logo.png" alt="Amazon Archive Extension Logo" width="150" height="150" />
-</td>
-</tr>
-</table>
+  </div>
+  <div style="flex-shrink: 0;">
+    <img src="public/logo.png" alt="Amazon Archive Extension Logo" width="150" height="150" />
+  </div>
+</div>
 
 ## How it Works
 
