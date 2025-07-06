@@ -36,13 +36,13 @@ jobs:
         run: pnpm build:firefox
 
       - name: Upload Chrome extension artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: amazon-archive-extension-chrome
           path: dist_chrome
 
       - name: Upload Firefox extension artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: amazon-archive-extension-firefox
           path: dist_firefox
