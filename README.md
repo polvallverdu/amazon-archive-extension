@@ -10,6 +10,20 @@ A browser extension that helps you quickly access Amazon order archives. Amazon 
 
 ## Installation
 
+Grab the latest release from the [releases page](https://github.com/polvallverdu/amazon-archive-extension/releases). Then follow the instructions for your browser.
+
+### Chrome/Edge/Brave
+
+1. Open `chrome://extensions/`
+2. Enable "Developer mode"
+3. Click "Load unpacked" and select the `dist` folder
+
+### Firefox
+
+1. Open `about:debugging`
+2. Click "This Firefox"
+3. Click "Load Temporary Add-on" and select the `manifest.json` from the `dist` folder
+
 ### Development
 
 ```bash
@@ -29,20 +43,6 @@ pnpm run build:firefox
 # Development mode
 pnpm run dev
 ```
-
-### Loading the Extension
-
-#### Chrome/Edge
-
-1. Open `chrome://extensions/`
-2. Enable "Developer mode"
-3. Click "Load unpacked" and select the `dist` folder
-
-#### Firefox
-
-1. Open `about:debugging`
-2. Click "This Firefox"
-3. Click "Load Temporary Add-on" and select the `manifest.json` from the `dist` folder
 
 ## Usage Example
 
