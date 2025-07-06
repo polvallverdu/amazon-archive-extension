@@ -73,3 +73,7 @@ pnpm run dev
 ## License
 
 MIT License
+
+## Thanks
+
+Thank you to [JohnBra](https://github.com/JohnBra) for the template for creating chrome and firefox extensions. Find it here: [JohnBra/vite-web-extension](https://github.com/JohnBra/vite-web-extension).
